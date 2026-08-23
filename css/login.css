@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    padding: 2vh 1vw;
+    background-color: #BBEFF2;
+    border-radius: 1vh;
+    color: #2C7277;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    grid-template-columns: auto auto;
+}
+
+label {
+    justify-self: end;
+    margin: 0 2vw;
+}
+
+form h2 {
+    margin: 2vh 0;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+form input {
+    margin: 2vh 0;
+    width: 16vw;
+    height: 3.5vh;
+    border: none;
+    border-radius: 1vh;
+    padding: 0 2vw;
+    background-color: #FDF5DE;
+    transition: 0.3s;
+}
+
+#subbtn {
+    width: 10vw;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+#subbtn:hover {
+    background-color: #2C7277;
+    color: #FDF5DE;
+}

@@ -1,0 +1,5 @@
+Para acessar a secção do administrador é necessário inserir as seguintes credenciais:
+Email: user@admin.com
+Senha: senha123
+
+O ficheiro para a ligação a base de dados esta em "php/conexao.php"

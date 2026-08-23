@@ -1,0 +1,30 @@
+section {
+    padding-top: 12.5vh!important;
+}
+
+.namedate {
+    margin-right: auto;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#materia {
+    margin-top: 2vh;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    text-align: justify;
+}
+
+#bigpicture {
+    opacity: 1!important;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    width: 100%!important;
+}
+
+#descricao {
+    margin-top: 2vh;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: justify;
+}
